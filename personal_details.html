@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="box-1">
+      <h2>Create your account</h2>
+      <div class="box-2">
+        <a href="index.html">Basic Details</a>
+        <a class="l1" href="personal_details.html">Personal Details</a>
+        <a class="l2" href="adress.html">Adress</a>
+      </div>
+      <form>
+        <input type="text" class="fname" name="firstname" value="First Name">
+        <input type="text" class="mname" name="middlename" value="Middle Name">
+        <input type="text" class="lname" name="lastname" value="Last Name">
+        <br />
+        <select required class="occup" name="occup">
+          <option value="" disabled selected hidden>Select occupation</option>
+          <option value="Government">Government</option>
+          <option value="Student">Student</option>
+          <option value="Professional">Professional</option>
+          <option value="Self-Employed">Self-Employed</option>
+        </select>
+        <input type="date" class="dob" name="date" value="Date Of Birth">
+        <br />
+        <input type="radio" name="status" value="Married">
+        <label for="Married">Married</label>
+        <input type="radio" name="status" value="Unmarried">
+        <label for="Unmarried">Unmarried</label>
+        <select required class="region" name="city">
+          <option value="" disabled selected hidden>Select your region</option>
+          <option value="South">South</option>
+          <option value="North">North</option>
+          <option value="East">East</option>
+          <option value="West">West</option>
+        </select><br />
+        <input type="button" class="male" name="Male" value="Male">
+        <input type="button" class="female" name="Female" value="Female">
+        <input type="button" class="transgender" name="Transgender" value="Transgender">
+        <input type="email" class="email" name="Email" value="Email"><br>
+        <input type="submit" class="cancel" name="back" value="Back">
+        <input type=submit class="continue_2" name="continue" value="Continue">
+      </form>
+    </div>
+  </body>
+</html>
